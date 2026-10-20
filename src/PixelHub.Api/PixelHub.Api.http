@@ -31,3 +31,11 @@ Accept: application/json
 ### Séance 2 — agrégation : note moyenne par genre
 GET {{host}}/games/stats
 Accept: application/json
+
+### Séance 3
+GET {{host}}/leaderboard/top/5
+Accept: application/json
+
+### Séance 3
+GET {{host}}/matchmaking/match 
+Accept: application/json
